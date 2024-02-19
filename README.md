@@ -77,13 +77,13 @@ $ forge build
 ```shell
 $ source .env //on root folder env location
 ```
-
+- //simulation to check if all things are correct
 ```shell
-$ forge script script/NFT.s.sol:NFTScript //simulation to check if all things are correct
+$ forge script script/NFT.s.sol:NFTScript 
 ```
-
+- //simulation to check if all things are correct
 ```shell
-$ forge script script/NFT.s.sol:NFTScript --rpc-url $POLYGONAPIKEY //simulation to check if all things are correct
+$ forge script script/NFT.s.sol:NFTScript --rpc-url $POLYGONAPIKEY 
 ```
 
 -- for deployment on chain and verification
